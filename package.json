@@ -4,11 +4,15 @@
   "description": "Testing on registration functionality that collects data through a web form.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress open"
   },
   "author": "Monica Albiaque",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.15.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "faker": "^5.5.3"
   }
 }
